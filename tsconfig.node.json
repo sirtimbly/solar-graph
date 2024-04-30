@@ -1,0 +1,19 @@
+/**
+ * Reference: https://aka.ms/tsconfig
+ *
+ * NOTE: The TypeScript compiler options are an unchanged copy of what Vite
+ * gives us. No 'custom' shenanigans here. We are not that special ❄️
+ */
+
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "rootDir": "../"
+  },
+  "include": ["./*.mts"]
+}
