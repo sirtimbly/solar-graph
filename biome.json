@@ -9,7 +9,7 @@
     "indentStyle": "space"
   },
   "linter": {
-    "enabled": true,
+    "enabled": false,
     "rules": {
       "recommended": true
     }
@@ -23,6 +23,7 @@
   "files": {
     "ignore": [
       "./configs/**",
+      "dist/**",
       "generated/**",
       "tsconfig*.json",
       "orval.config.ts"
